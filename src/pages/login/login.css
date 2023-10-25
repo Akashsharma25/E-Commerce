@@ -1,0 +1,63 @@
+fieldset{
+    width:500px;
+    margin:auto;
+    border:5px double grey;
+    padding:30px;
+    border-radius:10px;
+  
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  legend{
+    padding:8px 20px 8px;
+    background:black;
+    color:white;
+    font-size:25px;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-field{
+    height:30px;
+    width:100%;
+  }
+  
+  
+  fieldset table{
+    width:100%;
+  }
+  
+  fieldset table tr{
+   height:60px;
+  }
+  
+  .logInButton{
+    padding:7px 30px 7px;
+    font-size:20px;
+    color:white;
+    font-weight: 600;
+    background:#74b9ff;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .logInButton:hover{
+    background:#0984e3;
+  }
+  
+  .logInButton:focus{
+    background: black;
+    border-radius:20%;
+    color: white;
+  }
+  i{
+    margin-left: 5px;
+  }
